@@ -4,6 +4,7 @@
  */
 package Model.Degree;
 
+import Model.CourseCatalog.Course;
 import java.util.ArrayList;
 
 /**
