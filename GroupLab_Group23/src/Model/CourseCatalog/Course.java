@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Model;
+package Model.CourseCatalog;
 
 /**
  *
@@ -13,11 +13,10 @@ public class Course {
     String name;
     int credits;
     int price = 1250; //per credit hour
-    public Course(String n, String numb, int ch, int p){
+    public Course(String n, String numb, int ch){
         name = n;
         number = numb;
-        credits = ch;
-        price = p;      
+        credits = ch;   
     }
     
     public String getCOurseNumber(){
@@ -27,4 +26,9 @@ public class Course {
     public int getCoursePrice(){
         return price*credits;
     }    
+    
+    public int getCredits() {
+        return credits;
+    
+    }
 }
