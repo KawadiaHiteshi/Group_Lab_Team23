@@ -17,10 +17,11 @@ public class StudentDirectory {
     
     HashMap<String, CourseSchedule> mastercoursecatalog;
     
-    public Department(string n){
+    public Department(String n){
         name = n;
         mastercoursecatalog = new HashMap<String, CourseSchedule>();
         coursecatalog = new CourseCatalog(this);
         studentdirectory = new StudentDirectory(this);
         persondirectory = new PersonDirectory();
+    }    
 }
