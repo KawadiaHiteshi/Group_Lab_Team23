@@ -48,7 +48,7 @@ public class StudentProfile {
         return (CourseLoad) transcript.newCourseLoad(s);
     }
 
-    public ArrayList<Object> getCourseList() {
+    public ArrayList<SeatAssignment> getCourseList() {
 
         return transcript.getCourseList();
 
