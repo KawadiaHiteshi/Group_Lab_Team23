@@ -4,6 +4,7 @@
  */
 package Model.Employer;
 
+import Model.department.Department;
 import java.util.ArrayList;
 
 /**

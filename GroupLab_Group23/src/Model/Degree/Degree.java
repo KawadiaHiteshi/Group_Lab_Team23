@@ -5,6 +5,8 @@
 package Model.Degree;
 
 import Model.CourseCatalog.Course;
+import Model.CourseSchedule.SeatAssignment;
+import Model.Persona.StudentProfile;
 import java.util.ArrayList;
 
 /**
