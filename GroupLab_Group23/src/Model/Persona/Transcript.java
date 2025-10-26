@@ -4,6 +4,8 @@
  */
 package Model.Persona;
 
+import Model.CourseSchedule.CourseLoad;
+import Model.CourseSchedule.SeatAssignment;
 import java.util.ArrayList;
 import java.util.HashMap;
 
