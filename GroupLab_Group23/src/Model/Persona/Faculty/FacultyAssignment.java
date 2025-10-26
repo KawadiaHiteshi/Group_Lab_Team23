@@ -4,6 +4,8 @@
  */
 package Model.Persona.Faculty;
 
+import Model.CourseSchedule.CourseOffer;
+
 /**
  *
  * @author prekshapraveen

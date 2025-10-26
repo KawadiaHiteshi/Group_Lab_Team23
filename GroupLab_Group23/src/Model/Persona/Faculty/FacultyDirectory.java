@@ -5,6 +5,7 @@
 package Model.Persona.Faculty;
 
 import Model.Persona.Person;
+import Model.department.Department;
 import java.util.ArrayList;
 
 /**
