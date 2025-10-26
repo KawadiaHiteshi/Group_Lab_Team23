@@ -1,7 +1,6 @@
 
-package info5100.university.example.Department;
-
-import info5100.university.example.CourseSchedule.CourseSchedule;
+package Model.department;
+import Model.CourseSchedule.CourseSchedule;
 import java.lang.*;
 import java.util.HashMap;
 /**
