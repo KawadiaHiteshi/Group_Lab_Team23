@@ -6,6 +6,7 @@ package Model.Persona.Faculty;
 
 import Model.Persona.Person;
 import Model.Persona.UserAccount;
+import Model.department.Department;
 import java.util.ArrayList;
 
 /**

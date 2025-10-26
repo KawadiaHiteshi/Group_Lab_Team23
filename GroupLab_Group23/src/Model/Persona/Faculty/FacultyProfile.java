@@ -4,6 +4,7 @@
  */
 package Model.Persona.Faculty;
 
+import Model.CourseSchedule.CourseOffer;
 import Model.Persona.Person;
 import java.util.ArrayList;
 
