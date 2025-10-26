@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Model.department;
+
+import Model.CourseSchedule.CourseSchedule;
+
+/**
+ *
+ * @author Jayashree
+ */
+public class DepartmentAccount {
+  department department;
+    public DepartmentAccount(department d){
+        department = d;
+    }
+        
+    public int calculateRevenuesBySemester(String semester) {
+
+        CourseSchedule css = department.getCourseSchedule(semester);
+
+        return css.calculateTotalRevenues();
+
+    }
+}
