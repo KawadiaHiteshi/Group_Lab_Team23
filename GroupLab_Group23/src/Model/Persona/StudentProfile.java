@@ -4,6 +4,9 @@
  */
 package Model.Persona;
 
+import Model.CourseSchedule.CourseLoad;
+import Model.CourseSchedule.SeatAssignment;
+import Model.Persona.EmploymentHistory.EmploymentHistroy;
 import java.util.ArrayList;
 
 /**
@@ -32,20 +35,20 @@ public class StudentProfile {
 
     public CourseLoad getCourseLoadBySemester(String semester) {
 
-        return transcript.getCourseLoadBySemester(semester);
+        return (CourseLoad) transcript.getCourseLoadBySemester(semester);
     }
 
     public CourseLoad getCurrentCourseLoad() {
 
-        return transcript.getCurrentCourseLoad();
+        return (CourseLoad) transcript.getCurrentCourseLoad();
     }
 
     public CourseLoad newCourseLoad(String s) {
 
-        return transcript.newCourseLoad(s);
+        return (CourseLoad) transcript.newCourseLoad(s);
     }
 
-    public ArrayList<SeatAssignment> getCourseList() {
+    public ArrayList<Object> getCourseList() {
 
         return transcript.getCourseList();
 
