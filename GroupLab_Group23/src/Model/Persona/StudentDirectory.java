@@ -4,6 +4,7 @@
  */
 package Model.Persona;
 
+import Model.department.Department;
 import java.util.ArrayList;
 
 /**

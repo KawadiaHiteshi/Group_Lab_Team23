@@ -4,6 +4,7 @@
  */
 package Model.EmployerCatalog;
 
+import Model.Persona.EmploymentHistory.Employment;
 import java.util.ArrayList;
 
 /**
